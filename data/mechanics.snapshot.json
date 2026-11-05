@@ -1,0 +1,589 @@
+{
+  "generator": "tools/wiki/generate_wiki.py (stdlib only)",
+  "note": "Numbers are parsed from the repo; nothing here is invented. If a value disagrees with a design doc, the code value is listed here and the disagreement belongs on the wiki's Conflicts page.",
+  "balance": {
+    "PlayerSpeed": {
+      "value": "2.8f",
+      "source": "Assets/_Project/Scripts/Core/Balance.cs"
+    },
+    "EnemySpeedFactor": {
+      "value": "0.7f",
+      "source": "Assets/_Project/Scripts/Core/Balance.cs"
+    },
+    "EnemyAttackSeconds": {
+      "value": "2.5f",
+      "source": "Assets/_Project/Scripts/Core/Balance.cs"
+    },
+    "GlancingPercent": {
+      "value": "50",
+      "source": "Assets/_Project/Scripts/Core/Balance.cs"
+    },
+    "CriticalPercent": {
+      "value": "15",
+      "source": "Assets/_Project/Scripts/Core/Balance.cs"
+    },
+    "MedicalBayQuarterSeconds": {
+      "value": "6f",
+      "source": "Assets/_Project/Scripts/Core/Balance.cs"
+    },
+    "OxygenDrainPerSecond": {
+      "value": "0.5f",
+      "source": "Assets/_Project/Scripts/Core/Balance.cs"
+    },
+    "OxygenDoorEqualizePerSecond": {
+      "value": "0.04f",
+      "source": "Assets/_Project/Scripts/Core/Balance.cs"
+    },
+    "OxygenRefillPerSecond": {
+      "value": "2.5f",
+      "source": "Assets/_Project/Scripts/Core/Balance.cs"
+    },
+    "SuffocationQuarterSeconds": {
+      "value": "4f",
+      "source": "Assets/_Project/Scripts/Core/Balance.cs"
+    },
+    "FireChancePercent": {
+      "value": "25",
+      "source": "Assets/_Project/Scripts/Core/Balance.cs"
+    },
+    "LeakChancePercent": {
+      "value": "25",
+      "source": "Assets/_Project/Scripts/Core/Balance.cs"
+    },
+    "FireSpreadSeconds": {
+      "value": "7f",
+      "source": "Assets/_Project/Scripts/Core/Balance.cs"
+    },
+    "FireSpreadChancePercent": {
+      "value": "60",
+      "source": "Assets/_Project/Scripts/Core/Balance.cs"
+    },
+    "FireSpreadCooldownSeconds": {
+      "value": "5f",
+      "source": "Assets/_Project/Scripts/Core/Balance.cs"
+    },
+    "HandGunDamagePerModulePoint": {
+      "value": "66f",
+      "source": "Assets/_Project/Scripts/Core/Balance.cs"
+    },
+    "HandGunBulletSpeedFactor": {
+      "value": "0.5f",
+      "source": "Assets/_Project/Scripts/Core/Balance.cs"
+    },
+    "HandGunFireRateFactor": {
+      "value": "0.5f",
+      "source": "Assets/_Project/Scripts/Core/Balance.cs"
+    },
+    "HandGunBulletMinSpeed": {
+      "value": "4f",
+      "source": "Assets/_Project/Scripts/Core/Balance.cs"
+    },
+    "FireHullPointsPerSecond": {
+      "value": "0.25f",
+      "source": "Assets/_Project/Scripts/Core/Balance.cs"
+    },
+    "FireAirPerSecond": {
+      "value": "0.5f",
+      "source": "Assets/_Project/Scripts/Core/Balance.cs"
+    },
+    "FireOutAirLevel": {
+      "value": "15f",
+      "source": "Assets/_Project/Scripts/Core/Balance.cs"
+    },
+    "LeakAirPerSecond": {
+      "value": "1.5f",
+      "source": "Assets/_Project/Scripts/Core/Balance.cs"
+    },
+    "PutOutSeconds": {
+      "value": "2.5f",
+      "source": "Assets/_Project/Scripts/Core/Balance.cs"
+    },
+    "GunChargeSeconds": {
+      "value": "3f",
+      "source": "Assets/_Project/Scripts/Core/Balance.cs"
+    },
+    "ShuttleSpeed": {
+      "value": "5f",
+      "source": "Assets/_Project/Scripts/Core/Balance.cs"
+    },
+    "ShuttleAttachSeconds": {
+      "value": "5f",
+      "source": "Assets/_Project/Scripts/Core/Balance.cs"
+    },
+    "ShuttleCapacity": {
+      "value": "4",
+      "source": "Assets/_Project/Scripts/Core/Balance.cs"
+    },
+    "ShuttleStaggerSeconds": {
+      "value": "3f",
+      "source": "Assets/_Project/Scripts/Core/Balance.cs"
+    },
+    "DashStartSpeedFactor": {
+      "value": "5f",
+      "source": "Assets/_Project/Scripts/Core/Balance.cs"
+    },
+    "DashSlowdownRate": {
+      "value": "9f",
+      "source": "Assets/_Project/Scripts/Core/Balance.cs"
+    },
+    "DashEndSpeedFactor": {
+      "value": "0.67f",
+      "source": "Assets/_Project/Scripts/Core/Balance.cs"
+    },
+    "DashCooldownSeconds": {
+      "value": "2f",
+      "source": "Assets/_Project/Scripts/Core/Balance.cs"
+    },
+    "MissileMakeSeconds": {
+      "value": "2f",
+      "source": "Assets/_Project/Scripts/Core/Balance.cs"
+    },
+    "MissileCapacity": {
+      "value": "1",
+      "source": "Assets/_Project/Scripts/Core/Balance.cs"
+    },
+    "ShieldUpSeconds": {
+      "value": "3f",
+      "source": "Assets/_Project/Scripts/Core/Balance.cs"
+    },
+    "ShieldRechargeSeconds": {
+      "value": "10f",
+      "source": "Assets/_Project/Scripts/Core/Balance.cs"
+    },
+    "LowOxygenLevel": {
+      "value": "25f",
+      "source": "Assets/_Project/Scripts/Core/Balance.cs"
+    },
+    "FireBurnQuarterSeconds": {
+      "value": "2f",
+      "source": "Assets/_Project/Scripts/Core/Balance.cs"
+    },
+    "BaseDodgePercent": {
+      "value": "33",
+      "source": "Assets/_Project/Scripts/Core/Balance.cs"
+    },
+    "WeaponHazardChancePercent": {
+      "value": "40",
+      "source": "Assets/_Project/Scripts/Core/Balance.cs"
+    }
+  },
+  "warden": {
+    "ApproachEncounterId": {
+      "value": "\"lastGateApproach\"",
+      "source": "Assets/_Project/Scripts/Core/GateRules.cs"
+    },
+    "ProximityFlag": {
+      "value": "\"wardenProximity\"",
+      "source": "Assets/_Project/Scripts/Core/GateRules.cs"
+    },
+    "MaxLevel": {
+      "value": "4",
+      "source": "Assets/_Project/Scripts/Core/GateRules.cs"
+    },
+    "PatrolEncounterId": {
+      "value": "\"lastGatePatrol\"",
+      "source": "Assets/_Project/Scripts/Core/GateRules.cs"
+    },
+    "CheckpointEncounterId": {
+      "value": "\"lastGateCheckpoint\"",
+      "source": "Assets/_Project/Scripts/Core/GateRules.cs"
+    },
+    "StartBehind": {
+      "value": "0.08f",
+      "source": "Assets/_Project/Scripts/Core/GateRules.cs"
+    },
+    "AdvancePerJump": {
+      "value": "0.045f",
+      "source": "Assets/_Project/Scripts/Core/GateRules.cs"
+    },
+    "SectorAdvancePerJump": {
+      "value": "0.095f",
+      "source": "Assets/_Project/Scripts/Core/GateRules.cs"
+    }
+  },
+  "sectors": [
+    {
+      "name": "The Free Ports",
+      "kind": "Start",
+      "source": "Assets/_Project/Scripts/Core/SectorRun.cs",
+      "jumpsPerLevel": 4,
+      "decks": [
+        "Free Ports"
+      ]
+    },
+    {
+      "name": "The Guild Reaches",
+      "kind": "Core",
+      "source": "Assets/_Project/Scripts/Core/SectorRun.cs",
+      "decks": [
+        "Guild",
+        "Free Ports"
+      ]
+    },
+    {
+      "name": "Pirate Space",
+      "kind": "Core",
+      "source": "Assets/_Project/Scripts/Core/SectorRun.cs",
+      "decks": [
+        "Pirate"
+      ]
+    },
+    {
+      "name": "Lanternbearer Space",
+      "kind": "Core",
+      "source": "Assets/_Project/Scripts/Core/SectorRun.cs",
+      "jumpsPerLevel": 4,
+      "weight": 1,
+      "decks": [
+        "Cult"
+      ]
+    },
+    {
+      "name": "Forger Space",
+      "kind": "Core",
+      "source": "Assets/_Project/Scripts/Core/SectorRun.cs",
+      "proximityFloor": 1,
+      "jumpsPerLevel": 2,
+      "decks": [
+        "Forger"
+      ]
+    },
+    {
+      "name": "The Avian Homeworlds",
+      "kind": "Core",
+      "source": "Assets/_Project/Scripts/Core/SectorRun.cs",
+      "jumpsPerLevel": 4,
+      "decks": [
+        "Avian Homeworlds"
+      ]
+    },
+    {
+      "name": "Hearth Haven",
+      "kind": "Rare",
+      "source": "Assets/_Project/Scripts/Core/SectorRun.cs",
+      "jumpsPerLevel": 5,
+      "decks": [
+        "Hearth Haven"
+      ]
+    },
+    {
+      "name": "The Moth Caravan",
+      "kind": "Rare",
+      "source": "Assets/_Project/Scripts/Core/SectorRun.cs",
+      "jumpsPerLevel": 4,
+      "decks": [
+        "Moth Caravan"
+      ]
+    },
+    {
+      "name": "The Dryad Bloom",
+      "kind": "Rare",
+      "source": "Assets/_Project/Scripts/Core/SectorRun.cs",
+      "jumpsPerLevel": 4,
+      "decks": [
+        "Dryad Bloom"
+      ]
+    },
+    {
+      "name": "The Scientist Station",
+      "kind": "Rare",
+      "source": "Assets/_Project/Scripts/Core/SectorRun.cs",
+      "jumpsPerLevel": 4,
+      "decks": [
+        "Scientist Station"
+      ]
+    },
+    {
+      "name": "The Last Gate",
+      "kind": "Gate",
+      "source": "Assets/_Project/Scripts/Core/SectorRun.cs",
+      "proximityFloor": 1,
+      "jumpsPerLevel": 3,
+      "decks": [
+        "Gate"
+      ]
+    }
+  ],
+  "store": {
+    "ResourceBuy": {
+      "value": "{ 0, 4, 5, 10, 8 }",
+      "source": "Assets/_Project/Scripts/Core/Store.cs"
+    },
+    "ResourceSell": {
+      "value": "{ 0, 1, 2, 4, 3 }",
+      "source": "Assets/_Project/Scripts/Core/Store.cs"
+    },
+    "HullPackPoints": {
+      "value": "50",
+      "source": "Assets/_Project/Scripts/Core/Store.cs"
+    },
+    "HullPackPrice": {
+      "value": "10",
+      "source": "Assets/_Project/Scripts/Core/Store.cs"
+    },
+    "RoomRepairPrice": {
+      "value": "5",
+      "source": "Assets/_Project/Scripts/Core/Store.cs"
+    },
+    "GunLevelMultiplier": {
+      "value": "{ 1, 2, 3, 5, 8, 12 }",
+      "source": "Assets/_Project/Scripts/Core/Store.cs"
+    },
+    "DefaultGunValue": {
+      "value": "10",
+      "source": "Assets/_Project/Scripts/Core/Store.cs"
+    },
+    "GunSellPercent": {
+      "value": "50",
+      "source": "Assets/_Project/Scripts/Core/Store.cs"
+    },
+    "GunsInStock": {
+      "value": "3",
+      "source": "Assets/_Project/Scripts/Core/Store.cs"
+    }
+  },
+  "room_stages": {
+    "MaxHealth": {
+      "value": "50f",
+      "source": "Assets/_Project/Scripts/Core/DamageControl.cs"
+    },
+    "FineAbove": {
+      "value": "75f",
+      "source": "Assets/_Project/Scripts/Core/DamageControl.cs"
+    },
+    "DamagedAbove": {
+      "value": "40f",
+      "source": "Assets/_Project/Scripts/Core/DamageControl.cs"
+    },
+    "DamagePerHullPoint": {
+      "value": "1f",
+      "source": "Assets/_Project/Scripts/Core/DamageControl.cs"
+    },
+    "PreferredPercent": {
+      "value": "60",
+      "source": "Assets/_Project/Scripts/Core/DamageControl.cs"
+    },
+    "FullRepair": {
+      "value": "100f",
+      "source": "Assets/_Project/Scripts/Core/DamageControl.cs"
+    },
+    "PassiveRepairAmount": {
+      "value": "10f",
+      "source": "Assets/_Project/Scripts/Core/DamageControl.cs"
+    }
+  },
+  "rival": {
+    "MoveChancePercent": {
+      "value": "50",
+      "source": "Assets/_Project/Scripts/Core/StarMap/RivalHunt.cs"
+    },
+    "StartHopsFromShip": {
+      "value": "3",
+      "source": "Assets/_Project/Scripts/Core/StarMap/RivalHunt.cs"
+    }
+  },
+  "core_files_present": [
+    "Balance.cs",
+    "GateRules.cs",
+    "SectorRun.cs",
+    "Store.cs",
+    "DamageControl.cs",
+    "ShipCombat.cs",
+    "Combat.cs",
+    "Health.cs",
+    "Research.cs",
+    "Boons.cs",
+    "Oxygen.cs",
+    "MissileSupply.cs",
+    "Boarding.cs",
+    "ActiveShield.cs",
+    "RivalHunt.cs"
+  ],
+  "docs": [
+    {
+      "file": "Astra_Act_Sectors_And_Bosses.md",
+      "title": "Act sectors and bosses \u2014 SUPERSEDED",
+      "status": null
+    },
+    {
+      "file": "Astra_Conceptual_Game_Design.md",
+      "title": "Aboard the Astra \u2014 Conceptual Game Design Reference",
+      "status": null
+    },
+    {
+      "file": "Astra_Damage_Control_Design.md",
+      "title": "Aboard the Astra: Damage Control (design draft)",
+      "status": "built and pushed (rules, tests, network layer, scene wiring, Muse art, status icons); play-tested solo on the Bridge only, fight effects and two machines still to test."
+    },
+    {
+      "file": "Astra_Dialogue_Story_Plan.md",
+      "title": "Aboard the Astra 2 \u2014 Dialogue, Story & Game Plan",
+      "status": null
+    },
+    {
+      "file": "Astra_Dialogue_System_Spec.md",
+      "title": "Aboard the Astra 2 \u2014 Dialogue System Spec v3 (P2)",
+      "status": null
+    },
+    {
+      "file": "Astra_Encounter_Outcomes_Review.md",
+      "title": "Encounter outcomes review: what can actually happen, vs FTL and BG3, and what it does to gameplay",
+      "status": null
+    },
+    {
+      "file": "Astra_Encounter_Outlines_Toward_Last_Gate.md",
+      "title": "Aboard the Astra 2 \u2014 Encounter Outlines Toward the Last Gate",
+      "status": "Draft for Steven's review, Nov 1, 2026."
+    },
+    {
+      "file": "Astra_Encounter_Quality_Standard.md",
+      "title": "Encounter quality standard (Steven, 2026-11-02)",
+      "status": null
+    },
+    {
+      "file": "Astra_Faction_Combat.md",
+      "title": "Faction combat: different attributes and styles per faction",
+      "status": null
+    },
+    {
+      "file": "Astra_Factions.md",
+      "title": "Factions \u2014 SUPERSEDED",
+      "status": null
+    },
+    {
+      "file": "Astra_Fuel_Removal.md",
+      "title": "Removing fuel from the game \u2014 what was done, what is left",
+      "status": null
+    },
+    {
+      "file": "Astra_Last_Gate_Encounters_Build.md",
+      "title": "Aboard the Astra 2 \u2014 Last Gate Encounters, Built (2026-11-01)",
+      "status": "Built, not yet playtested in Unity."
+    },
+    {
+      "file": "Astra_Production_Removal.md",
+      "title": "Production removal \u2014 Last Gate encounters",
+      "status": null
+    },
+    {
+      "file": "Astra_Roster_Eight_Pick_Four.md",
+      "title": "Roster: 8 characters, pick 4 \u2014 SUPERSEDED",
+      "status": null
+    },
+    {
+      "file": "Astra_Sectors_Redesign_FTL.md",
+      "title": "Sectors redesign \u2014 FTL comparison (PROPOSAL, not locked)",
+      "status": null
+    },
+    {
+      "file": "Astra_Ship_Combat_Design.md",
+      "title": "Ship-to-ship combat: design (draft 2, 2026-10-15)",
+      "status": "rules built (307 tests); first playable version built: network layer, Bridge gun console, ammo rack and cannon, enemy ship placeholders, fight panel, retreat jump, ships and boarders together. Gunnery room built (rack and two mounts, limit of one); art and balance are next."
+    },
+    {
+      "file": "Astra_Ship_Design_V2.md",
+      "title": "Astra: ship design v2 (tile grid, FTL-style, top-down)",
+      "status": "approved; step 1 (tile rules, preset layout, tests) is built; the scene is not changed yet."
+    },
+    {
+      "file": "Astra_Ship_Design_V3_Building.md",
+      "title": "Ship design v3: building in the world, hulls of any shape",
+      "status": null
+    },
+    {
+      "file": "Astra_Ship_Hull_Design.md",
+      "title": "Astra: a smaller ship with a hull around it",
+      "status": "SUPERSEDED by `Astra_Ship_Design_V2.md` (tile grid, FTL-style, top-down) on 2026-10-19."
+    },
+    {
+      "file": "Astra_Space_Combat_Design.md",
+      "title": "Space combat v2: aim and shoot in the world, and softer boarders",
+      "status": null
+    },
+    {
+      "file": "Astra_Store_Design.md",
+      "title": "Astra: Stores",
+      "status": "built (rules, tests, network layer, Store page, map markers); play-tested solo by script, not on two machines."
+    },
+    {
+      "file": "Astra_Story_Spine.md",
+      "title": "Aboard the Astra 2 \u2014 Story Spine (locked 2026-11-01)",
+      "status": "LOCKED by Steven, voice call Sun Nov 1, 2026"
+    },
+    {
+      "file": "Astra_Three_Act_Structure.md",
+      "title": "Three-act structure \u2014 SUPERSEDED",
+      "status": null
+    },
+    {
+      "file": "Astra_Wardens.md",
+      "title": "The Wardens (now Forgers) \u2014 SUPERSEDED",
+      "status": null
+    },
+    {
+      "file": "Astra_World_Design.md",
+      "title": "Aboard the Astra 2 \u2014 World Design: Races, Factions, Run, Sectors, Cast",
+      "status": null
+    }
+  ],
+  "store_chance_percent": {
+    "value": 12,
+    "source": "Assets/_Project/Scripts/Core/SectorRun.cs"
+  },
+  "wip": [
+    {
+      "item": "Salvage Stars",
+      "what": "Two per sector map, off the shortest route; a spoils pick with no fight.",
+      "commit": "2840bd66 (merged as e6bac5e5)",
+      "since": "main after e8824e89, 2026-11-05"
+    },
+    {
+      "item": "Set pieces",
+      "what": "Stations, anomalies and beacons as labelled placeholders; wrecks, other ships and asteroids from the original Astra's art.",
+      "commit": "a9bfb483 (merged as 42decca4)",
+      "since": "main after e8824e89, 2026-11-05"
+    },
+    {
+      "item": "Sector hazards",
+      "what": "Per-sector hazards (nebula, ion storm, asteroids, solar flares); nebula/ion change shield and dodge, asteroids/flares strike (breach or fire); Hearth Haven has none.",
+      "commit": "6ceb0117 (merged as a9381c67)",
+      "since": "main after e8824e89, 2026-11-05"
+    },
+    {
+      "item": "Weird encounters",
+      "what": "Five sci-fi encounters (time loop, the other Astra, duplicated crew member, sideways gravity, repair booth); stakes include an Oddity swapped, a Fault erased, max hull, a heart for everyone.",
+      "commit": "99a76021 (merged as cc9e1f57)",
+      "since": "main after e8824e89, 2026-11-05"
+    },
+    {
+      "item": "Many hands",
+      "what": "Fires, breaches and repairs go 60% faster per helper, up to three helpers in the room.",
+      "commit": "264d469b (merged as 58f90483)",
+      "since": "main after e8824e89, 2026-11-05"
+    },
+    {
+      "item": "Placeholder numbers: shield 40 / hull 300",
+      "what": "Space-combat v2 shield/hull are placeholders to tune; capital ship is a test ship.",
+      "commit": "Astra_Space_Combat_Design.md (v2)",
+      "since": "at snapshot e8824e89"
+    },
+    {
+      "item": "Placeholder Oddity icons",
+      "what": "Boons/burdens effects implemented; icons are placeholders.",
+      "commit": "79cb47ae",
+      "since": "at snapshot e8824e89"
+    },
+    {
+      "item": "Fuel & production removal (in transition)",
+      "what": "Out of Last Gate encounters, not yet out of the code, starting resources, UI or original encounters.",
+      "commit": "Astra_Fuel_Removal.md / Astra_Production_Removal.md (2026-11-02)",
+      "since": "at snapshot e8824e89"
+    },
+    {
+      "item": "Patrols -> Rival crews (in transition)",
+      "what": "Direction is to replace Forger patrols purely with rival crews; patrol code still exists alongside the Rival.",
+      "commit": "RivalHunt.cs / GateRules.cs",
+      "since": "at snapshot e8824e89"
+    }
+  ]
+}
