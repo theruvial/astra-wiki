@@ -6,11 +6,11 @@ ground combat, damage control, ship systems, crew, economy, dialogue/Ink,
 boons & burdens, spoils, and a Work in progress / placeholders page — with
 their numbers where the repo states them, and a status on each one:
 **Implemented** (code/tests present), **Designed** (doc-only), **Locked**
-(Steven's story locks), **In transition** (being removed/renamed),
+(story locks), **In transition** (being removed/renamed),
 **Conflict** (two repo sources disagree), or **WIP** (merged / written
 but unfinished, or standing in with placeholder numbers, icons or art).
 
-**Repo: `theruvial/astra-wiki`** — Thea's own GitHub account.
+**Repo: `theruvial/astra-wiki`**
 Live site (once deployed): **https://theruvial.github.io/astra-wiki/**
 
 **This repo holds NO game files and NO backend code.** It is the frontend
@@ -38,7 +38,7 @@ Edit **`config.js`** — one line:
 
 ```js
 window.ASTRA_WIKI_API = "http://localhost:13382";   // local dev
-// window.ASTRA_WIKI_API = "https://wiki.theruvial.com"; // deployed backend
+// window.ASTRA_WIKI_API = "https://<backend-host>"; // deployed backend
 ```
 
 That is the only place the backend URL lives. The backend's CORS
