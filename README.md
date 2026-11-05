@@ -37,8 +37,8 @@ separate wiki backend (see below).
 Edit **`config.js`** — one line:
 
 ```js
-window.ASTRA_WIKI_API = "http://localhost:13382";   // local dev
-// window.ASTRA_WIKI_API = "https://<backend-host>"; // deployed backend
+window.ASTRA_WIKI_API = "https://api.theruvial.com"; // deployed backend
+// window.ASTRA_WIKI_API = "http://localhost:13382"; // local dev
 ```
 
 That is the only place the backend URL lives. The backend's CORS
